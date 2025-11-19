@@ -1,4 +1,4 @@
-import { Menu, SoccerBall, ArrowRight } from 'lucide-react';
+import { Menu, Football, ArrowRight } from 'lucide-react';
 
 export default function Navbar() {
   return (
@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="mt-5 flex items-center justify-between rounded-2xl border border-white/10 bg-slate-900/70 px-4 py-3 backdrop-blur">
           <div className="flex items-center gap-2 text-white">
-            <SoccerBall className="h-6 w-6 text-blue-400" />
+            <Football className="h-6 w-6 text-blue-400" />
             <span className="font-semibold">ClubManager</span>
           </div>
 
